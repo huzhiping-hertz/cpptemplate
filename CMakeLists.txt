@@ -4,5 +4,7 @@ project (project_cmake)
 set (Tutorial_VERSION_MAJOR 1)
 set (Tutorial_VERSION_MINOR 0)
 
+message(${CMAKE_CURRENT_SOURCE_DIR})
+
 add_subdirectory(src)
 add_subdirectory(tests)
