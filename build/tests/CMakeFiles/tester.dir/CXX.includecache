@@ -302,7 +302,19 @@ cxxabi.h
 acxx_demangle.h
 -
 
+../include/models/Rectangle.h
+
 ../include/utility/SquareRoot.h
+
+/home/hz/work/cpptemplate/tests/main.cpp
+gtest/gtest.h
+-
+
+/home/hz/work/cpptemplate/tests/test_rectangle.cpp
+models/Rectangle.h
+-
+gtest/gtest.h
+-
 
 /home/hz/work/cpptemplate/tests/test_squareroot.cpp
 utility/SquareRoot.h

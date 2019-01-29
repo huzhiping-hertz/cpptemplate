@@ -125,6 +125,60 @@ tester/fast:
 	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/build
 .PHONY : tester/fast
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+test_rectangle.o: test_rectangle.cpp.o
+
+.PHONY : test_rectangle.o
+
+# target to build an object file
+test_rectangle.cpp.o:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/test_rectangle.cpp.o
+.PHONY : test_rectangle.cpp.o
+
+test_rectangle.i: test_rectangle.cpp.i
+
+.PHONY : test_rectangle.i
+
+# target to preprocess a source file
+test_rectangle.cpp.i:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/test_rectangle.cpp.i
+.PHONY : test_rectangle.cpp.i
+
+test_rectangle.s: test_rectangle.cpp.s
+
+.PHONY : test_rectangle.s
+
+# target to generate assembly for a file
+test_rectangle.cpp.s:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/test_rectangle.cpp.s
+.PHONY : test_rectangle.cpp.s
+
 test_squareroot.o: test_squareroot.cpp.o
 
 .PHONY : test_squareroot.o
@@ -161,6 +215,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tester"
 	@echo "... edit_cache"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... test_rectangle.o"
+	@echo "... test_rectangle.i"
+	@echo "... test_rectangle.s"
 	@echo "... test_squareroot.o"
 	@echo "... test_squareroot.i"
 	@echo "... test_squareroot.s"
