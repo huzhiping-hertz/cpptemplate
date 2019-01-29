@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utility/SquareRoot.h
+
+/home/hz/work/cpptemplate/src/utility/SquareRoot.cpp
+math.h
+-
+utility/SquareRoot.h
+-
+

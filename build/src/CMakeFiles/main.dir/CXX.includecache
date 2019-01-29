@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/models/Rectangle.h
+
+../include/utility/SquareRoot.h
+
+/home/hz/work/cpptemplate/src/main.cpp
+iostream
+-
+string
+-
+utility/SquareRoot.h
+-
+models/Rectangle.h
+-
+

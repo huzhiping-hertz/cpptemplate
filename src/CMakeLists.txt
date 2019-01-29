@@ -1,5 +1,7 @@
-project(myapp)
+add_subdirectory(utility)
+add_subdirectory(models)
 
 # The main program
-add_executable(myapp main.cpp)
-target_link_libraries(myapp PUBLIC utility)
+set(APP_NAME "main")
+add_executable(${APP_NAME} main.cpp)
+target_link_libraries(${APP_NAME} PUBLIC utility models)

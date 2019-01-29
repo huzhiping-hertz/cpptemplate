@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -O0 -Wall -g -ggdb -pthread  -shared -Wl,-soname,libmodels.so -o ../../../bin/libmodels.so CMakeFiles/models.dir/Rectangle.cpp.o  -L/home/hz/work/cpptemplate/extras/libs  -L/home/hz/work/cpptemplate/libs 
