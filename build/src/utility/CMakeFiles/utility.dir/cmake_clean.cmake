@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/utility.dir/LogHelper.cpp.o"
   "CMakeFiles/utility.dir/SquareRoot.cpp.o"
   "../../../bin/libutility.pdb"
   "../../../bin/libutility.so"

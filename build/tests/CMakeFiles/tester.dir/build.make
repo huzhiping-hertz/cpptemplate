@@ -81,9 +81,33 @@ tests/CMakeFiles/tester.dir/main.cpp.o.provides: tests/CMakeFiles/tester.dir/mai
 tests/CMakeFiles/tester.dir/main.cpp.o.provides.build: tests/CMakeFiles/tester.dir/main.cpp.o
 
 
+tests/CMakeFiles/tester.dir/test_log.cpp.o: tests/CMakeFiles/tester.dir/flags.make
+tests/CMakeFiles/tester.dir/test_log.cpp.o: ../tests/test_log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/tester.dir/test_log.cpp.o"
+	cd /home/hz/work/cpptemplate/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tester.dir/test_log.cpp.o -c /home/hz/work/cpptemplate/tests/test_log.cpp
+
+tests/CMakeFiles/tester.dir/test_log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tester.dir/test_log.cpp.i"
+	cd /home/hz/work/cpptemplate/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hz/work/cpptemplate/tests/test_log.cpp > CMakeFiles/tester.dir/test_log.cpp.i
+
+tests/CMakeFiles/tester.dir/test_log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tester.dir/test_log.cpp.s"
+	cd /home/hz/work/cpptemplate/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hz/work/cpptemplate/tests/test_log.cpp -o CMakeFiles/tester.dir/test_log.cpp.s
+
+tests/CMakeFiles/tester.dir/test_log.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/tester.dir/test_log.cpp.o.requires
+
+tests/CMakeFiles/tester.dir/test_log.cpp.o.provides: tests/CMakeFiles/tester.dir/test_log.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/test_log.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/tester.dir/test_log.cpp.o.provides
+
+tests/CMakeFiles/tester.dir/test_log.cpp.o.provides.build: tests/CMakeFiles/tester.dir/test_log.cpp.o
+
+
 tests/CMakeFiles/tester.dir/test_rectangle.cpp.o: tests/CMakeFiles/tester.dir/flags.make
 tests/CMakeFiles/tester.dir/test_rectangle.cpp.o: ../tests/test_rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/tester.dir/test_rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/tester.dir/test_rectangle.cpp.o"
 	cd /home/hz/work/cpptemplate/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tester.dir/test_rectangle.cpp.o -c /home/hz/work/cpptemplate/tests/test_rectangle.cpp
 
 tests/CMakeFiles/tester.dir/test_rectangle.cpp.i: cmake_force
@@ -107,7 +131,7 @@ tests/CMakeFiles/tester.dir/test_rectangle.cpp.o.provides.build: tests/CMakeFile
 
 tests/CMakeFiles/tester.dir/test_squareroot.cpp.o: tests/CMakeFiles/tester.dir/flags.make
 tests/CMakeFiles/tester.dir/test_squareroot.cpp.o: ../tests/test_squareroot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/tester.dir/test_squareroot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/tester.dir/test_squareroot.cpp.o"
 	cd /home/hz/work/cpptemplate/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tester.dir/test_squareroot.cpp.o -c /home/hz/work/cpptemplate/tests/test_squareroot.cpp
 
 tests/CMakeFiles/tester.dir/test_squareroot.cpp.i: cmake_force
@@ -132,6 +156,7 @@ tests/CMakeFiles/tester.dir/test_squareroot.cpp.o.provides.build: tests/CMakeFil
 # Object files for target tester
 tester_OBJECTS = \
 "CMakeFiles/tester.dir/main.cpp.o" \
+"CMakeFiles/tester.dir/test_log.cpp.o" \
 "CMakeFiles/tester.dir/test_rectangle.cpp.o" \
 "CMakeFiles/tester.dir/test_squareroot.cpp.o"
 
@@ -139,12 +164,13 @@ tester_OBJECTS = \
 tester_EXTERNAL_OBJECTS =
 
 ../bin/tester: tests/CMakeFiles/tester.dir/main.cpp.o
+../bin/tester: tests/CMakeFiles/tester.dir/test_log.cpp.o
 ../bin/tester: tests/CMakeFiles/tester.dir/test_rectangle.cpp.o
 ../bin/tester: tests/CMakeFiles/tester.dir/test_squareroot.cpp.o
 ../bin/tester: tests/CMakeFiles/tester.dir/build.make
 ../bin/tester: ../bin/libutility.so
 ../bin/tester: tests/CMakeFiles/tester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../bin/tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/tester"
 	cd /home/hz/work/cpptemplate/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tester.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +179,7 @@ tests/CMakeFiles/tester.dir/build: ../bin/tester
 .PHONY : tests/CMakeFiles/tester.dir/build
 
 tests/CMakeFiles/tester.dir/requires: tests/CMakeFiles/tester.dir/main.cpp.o.requires
+tests/CMakeFiles/tester.dir/requires: tests/CMakeFiles/tester.dir/test_log.cpp.o.requires
 tests/CMakeFiles/tester.dir/requires: tests/CMakeFiles/tester.dir/test_rectangle.cpp.o.requires
 tests/CMakeFiles/tester.dir/requires: tests/CMakeFiles/tester.dir/test_squareroot.cpp.o.requires
 

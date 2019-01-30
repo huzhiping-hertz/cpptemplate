@@ -125,6 +125,33 @@ utility/fast:
 	cd /home/hz/work/cpptemplate/build && $(MAKE) -f src/utility/CMakeFiles/utility.dir/build.make src/utility/CMakeFiles/utility.dir/build
 .PHONY : utility/fast
 
+LogHelper.o: LogHelper.cpp.o
+
+.PHONY : LogHelper.o
+
+# target to build an object file
+LogHelper.cpp.o:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f src/utility/CMakeFiles/utility.dir/build.make src/utility/CMakeFiles/utility.dir/LogHelper.cpp.o
+.PHONY : LogHelper.cpp.o
+
+LogHelper.i: LogHelper.cpp.i
+
+.PHONY : LogHelper.i
+
+# target to preprocess a source file
+LogHelper.cpp.i:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f src/utility/CMakeFiles/utility.dir/build.make src/utility/CMakeFiles/utility.dir/LogHelper.cpp.i
+.PHONY : LogHelper.cpp.i
+
+LogHelper.s: LogHelper.cpp.s
+
+.PHONY : LogHelper.s
+
+# target to generate assembly for a file
+LogHelper.cpp.s:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f src/utility/CMakeFiles/utility.dir/build.make src/utility/CMakeFiles/utility.dir/LogHelper.cpp.s
+.PHONY : LogHelper.cpp.s
+
 SquareRoot.o: SquareRoot.cpp.o
 
 .PHONY : SquareRoot.o
@@ -161,6 +188,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... utility"
 	@echo "... edit_cache"
+	@echo "... LogHelper.o"
+	@echo "... LogHelper.i"
+	@echo "... LogHelper.s"
 	@echo "... SquareRoot.o"
 	@echo "... SquareRoot.i"
 	@echo "... SquareRoot.s"

@@ -190,8 +190,8 @@ project_cmake_BINARY_DIR:STATIC=/home/hz/work/cpptemplate/build
 //Value Computed by CMake
 project_cmake_SOURCE_DIR:STATIC=/home/hz/work/cpptemplate
 
-//Dependencies for target
-utility_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+utility_LIB_DEPENDS:STATIC=general;log4cpp;
 
 
 ########################

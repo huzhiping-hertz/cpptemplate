@@ -9,7 +9,7 @@ MESSAGE("++++++++++Start Build++++++++++")
 #SET(CMAKE_CXX_COMPILER "g++")
 #设置构建类型，及相应的编译选项
 SET(CMAKE_BUILD_TYPE "Debug")
-SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb -pthread")
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb -pthread ")
 SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall -pthread")
 
 #第三方库文件引入

@@ -21,8 +21,9 @@
             }
         ]
     },
+
+    "gtest-adapter.supportLocation": true,
     "gtest-adapter.debugConfig": [
         "UnitTest"
-    ],
-    "gtest-adapter.supportLocation": true
+    ]
 }

@@ -100,7 +100,7 @@ all: src/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/main.dir/rule
@@ -145,7 +145,7 @@ src/utility/preinstall:
 src/utility/CMakeFiles/utility.dir/all:
 	$(MAKE) -f src/utility/CMakeFiles/utility.dir/build.make src/utility/CMakeFiles/utility.dir/depend
 	$(MAKE) -f src/utility/CMakeFiles/utility.dir/build.make src/utility/CMakeFiles/utility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=9,10 "Built target utility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=10,11,12 "Built target utility"
 .PHONY : src/utility/CMakeFiles/utility.dir/all
 
 # Include target in all.
@@ -155,7 +155,7 @@ all: src/utility/CMakeFiles/utility.dir/all
 
 # Build rule for subdir invocation for target.
 src/utility/CMakeFiles/utility.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 src/utility/CMakeFiles/utility.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 0
 .PHONY : src/utility/CMakeFiles/utility.dir/rule
@@ -255,7 +255,7 @@ tests/preinstall:
 tests/CMakeFiles/tester.dir/all: src/utility/CMakeFiles/utility.dir/all
 	$(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/depend
 	$(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=5,6,7,8 "Built target tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hz/work/cpptemplate/build/CMakeFiles --progress-num=5,6,7,8,9 "Built target tester"
 .PHONY : tests/CMakeFiles/tester.dir/all
 
 # Include target in all.
@@ -265,7 +265,7 @@ all: tests/CMakeFiles/tester.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/tester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/tester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hz/work/cpptemplate/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/tester.dir/rule

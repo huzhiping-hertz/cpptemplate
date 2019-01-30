@@ -152,6 +152,33 @@ main.cpp.s:
 	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test_log.o: test_log.cpp.o
+
+.PHONY : test_log.o
+
+# target to build an object file
+test_log.cpp.o:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/test_log.cpp.o
+.PHONY : test_log.cpp.o
+
+test_log.i: test_log.cpp.i
+
+.PHONY : test_log.i
+
+# target to preprocess a source file
+test_log.cpp.i:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/test_log.cpp.i
+.PHONY : test_log.cpp.i
+
+test_log.s: test_log.cpp.s
+
+.PHONY : test_log.s
+
+# target to generate assembly for a file
+test_log.cpp.s:
+	cd /home/hz/work/cpptemplate/build && $(MAKE) -f tests/CMakeFiles/tester.dir/build.make tests/CMakeFiles/tester.dir/test_log.cpp.s
+.PHONY : test_log.cpp.s
+
 test_rectangle.o: test_rectangle.cpp.o
 
 .PHONY : test_rectangle.o
@@ -218,6 +245,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test_log.o"
+	@echo "... test_log.i"
+	@echo "... test_log.s"
 	@echo "... test_rectangle.o"
 	@echo "... test_rectangle.i"
 	@echo "... test_rectangle.s"

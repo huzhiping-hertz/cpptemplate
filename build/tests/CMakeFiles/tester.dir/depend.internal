@@ -24,6 +24,56 @@ tests/CMakeFiles/tester.dir/main.cpp.o
  ../extras/include/gtest/internal/gtest-string.h
  ../extras/include/gtest/internal/gtest-type-util.h
  /home/hz/work/cpptemplate/tests/main.cpp
+tests/CMakeFiles/tester.dir/test_log.cpp.o
+ ../extras/include/gtest/gtest-death-test.h
+ ../extras/include/gtest/gtest-matchers.h
+ ../extras/include/gtest/gtest-message.h
+ ../extras/include/gtest/gtest-param-test.h
+ ../extras/include/gtest/gtest-printers.h
+ ../extras/include/gtest/gtest-test-part.h
+ ../extras/include/gtest/gtest-typed-test.h
+ ../extras/include/gtest/gtest.h
+ ../extras/include/gtest/gtest_pred_impl.h
+ ../extras/include/gtest/gtest_prod.h
+ ../extras/include/gtest/internal/custom/gtest-port.h
+ ../extras/include/gtest/internal/custom/gtest-printers.h
+ ../extras/include/gtest/internal/gtest-death-test-internal.h
+ ../extras/include/gtest/internal/gtest-filepath.h
+ ../extras/include/gtest/internal/gtest-internal.h
+ ../extras/include/gtest/internal/gtest-param-util-generated.h
+ ../extras/include/gtest/internal/gtest-param-util.h
+ ../extras/include/gtest/internal/gtest-port-arch.h
+ ../extras/include/gtest/internal/gtest-port.h
+ ../extras/include/gtest/internal/gtest-string.h
+ ../extras/include/gtest/internal/gtest-type-util.h
+ ../extras/include/log4cpp/Appender.hh
+ ../extras/include/log4cpp/AppenderSkeleton.hh
+ ../extras/include/log4cpp/BasicLayout.hh
+ ../extras/include/log4cpp/Category.hh
+ ../extras/include/log4cpp/CategoryStream.hh
+ ../extras/include/log4cpp/Export.hh
+ ../extras/include/log4cpp/FileAppender.hh
+ ../extras/include/log4cpp/Filter.hh
+ ../extras/include/log4cpp/Layout.hh
+ ../extras/include/log4cpp/LayoutAppender.hh
+ ../extras/include/log4cpp/LoggingEvent.hh
+ ../extras/include/log4cpp/Manipulator.hh
+ ../extras/include/log4cpp/Portability.hh
+ ../extras/include/log4cpp/Priority.hh
+ ../extras/include/log4cpp/TimeStamp.hh
+ ../extras/include/log4cpp/config-MinGW32.h
+ ../extras/include/log4cpp/config-openvms.h
+ ../extras/include/log4cpp/config-win32.h
+ ../extras/include/log4cpp/config.h
+ ../extras/include/log4cpp/convenience.h
+ ../extras/include/log4cpp/threading/BoostThreads.hh
+ ../extras/include/log4cpp/threading/DummyThreads.hh
+ ../extras/include/log4cpp/threading/MSThreads.hh
+ ../extras/include/log4cpp/threading/OmniThreads.hh
+ ../extras/include/log4cpp/threading/PThreads.hh
+ ../extras/include/log4cpp/threading/Threading.hh
+ ../include/utility/LogHelper.h
+ /home/hz/work/cpptemplate/tests/test_log.cpp
 tests/CMakeFiles/tester.dir/test_rectangle.cpp.o
  ../extras/include/gtest/gtest-death-test.h
  ../extras/include/gtest/gtest-matchers.h

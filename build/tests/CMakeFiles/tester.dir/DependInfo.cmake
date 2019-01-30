@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/hz/work/cpptemplate/tests/main.cpp" "/home/hz/work/cpptemplate/build/tests/CMakeFiles/tester.dir/main.cpp.o"
+  "/home/hz/work/cpptemplate/tests/test_log.cpp" "/home/hz/work/cpptemplate/build/tests/CMakeFiles/tester.dir/test_log.cpp.o"
   "/home/hz/work/cpptemplate/tests/test_rectangle.cpp" "/home/hz/work/cpptemplate/build/tests/CMakeFiles/tester.dir/test_rectangle.cpp.o"
   "/home/hz/work/cpptemplate/tests/test_squareroot.cpp" "/home/hz/work/cpptemplate/build/tests/CMakeFiles/tester.dir/test_squareroot.cpp.o"
   )
